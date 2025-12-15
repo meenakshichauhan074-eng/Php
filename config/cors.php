@@ -1,0 +1,12 @@
+<?php
+return[
+    'paths'=>['api/*','sanctum/csrf-cookie'],
+    'allowed_methods'=>['*'],
+    'allowed_origin'=>['*'],
+    'allowed_origin_patterns'=>[],
+    'allowed_headers'=>['*'],
+    'exposed_headers'=>[],
+    'max_age'=>0,
+    'supports_cerdentials'=>false,
+];
+?>
